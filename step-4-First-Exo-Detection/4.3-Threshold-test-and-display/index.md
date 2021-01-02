@@ -40,7 +40,7 @@ The result will be the same series containing only the points that match the cri
 
 Great now you can successfully detect some exoplanet! You have well earn your badge as an exoplanet hunter! Just one more thing, how to be sure that the periods you have extracted corresponds to exoplanet ? Let's print more nicely the result! To do so, we can convert our result into annotations in WarpScript. This can be done using boolean instead of values! And there is also a mapper to do it: [mapper.toboolean]({{ site.doc_url }}/doc/mapper.toboolean).
 
-**Pro tip: `mapper.toboolean` is a single value mapper and would not work correctly on bucketized series. To correct it and get the better result we recommand to use the [`UNBUCKETIZE`]({{ site.doc_url }}/reference/functions/function_UNBUCKETIZE/) function right after the `BUCKETIZE` operation. A TODO was included in the sampled code for this task.**
+**Pro tip: `mapper.toboolean` is a single value mapper and would not work correctly on bucketized series. To correct it and get the better result we recommand to use the [`UNBUCKETIZE`]({{ site.doc_url }}/doc/UNBUCKETIZE) function right after the `BUCKETIZE` operation. A TODO was included in the sampled code for this task.**
 
 Then you can push back on the stack the original series using a variable!
 

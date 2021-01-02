@@ -56,7 +56,7 @@ The needed parameter are :
 
 Go ahead and `TIMESPLIT` the time series!
 
-> Pro tips: You can use a function called [`h`]({{ site.doc_url }}/reference/functions/function_h/) to easily compute duration in hours. For example, putting `1 h` into the stack will push the number of microsecond in a hour in the stack!
+> Pro tips: You can use a function called [`h`]({{ site.doc_url }}/doc/h) to easily compute duration in hours. For example, putting `1 h` into the stack will push the number of microsecond in a hour in the stack!
 
 <warp10-embeddable-quantum warpscript="
 // Storing the token into a variable

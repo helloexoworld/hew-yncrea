@@ -45,7 +45,7 @@ The list will be droped of the stack, so at the start of the `FOREACH` process o
 
 ## LMAP
 
-The [`LMAP`]({{ site.doc_url }}/reference/functions/function_LMAP/) function will on the other side compute an operation on each elements of a list.
+The [`LMAP`]({{ site.doc_url }}/doc/LMAP) function will on the other side compute an operation on each elements of a list.
 
 Let's say that for example, we would like to add 1 to each element of the previous list.
 
